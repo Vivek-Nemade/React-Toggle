@@ -1,0 +1,94 @@
+.box {
+  /* background: #f5f6fa; */
+  width: 1359px;
+}
+.rightdiv {
+  display: flex;
+}
+.dashboard > p {
+  font-size: 36px;
+  line-height: 42.19px;
+  font-weight: 400;
+}
+.dashboard {
+  margin-left: 26px;
+  margin-top: 30px;
+}
+.mode {
+  margin-left: 68px;
+  margin-top: 51px;
+}
+.mode > p {
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+}
+.switch {
+  margin-top: 35px;
+  margin-left: 4px;
+}
+.middiv {
+  margin-left: 122px;
+  margin-top: 40px;
+  width: 452px;
+  height: 514px;
+  box-shadow: 0px 1px 4px #e5e9f2;
+}
+.middiv > div:nth-child(1) {
+  display: flex;
+  /* border: 1px solid black; */
+  padding-left: 30px;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+.middiv > div:nth-child(1) > div {
+  display: flex;
+}
+.onediv {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-top: 32px;
+}
+.points {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 28px;
+  padding-right: 28px;
+  align-items: center;
+}
+.points > h3 {
+  size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+}
+.avatar > img {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 50%;
+  margin-top: -2px;
+}
+.namediv {
+  margin-left: 10px;
+  margin-right: 260px;
+}
+.namediv > h2 {
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+}
+.namediv > p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #748aa1;
+}
+.progress {
+  width: 392px;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 11px;
+}
+hr {
+  margin-top: 25px;
+}

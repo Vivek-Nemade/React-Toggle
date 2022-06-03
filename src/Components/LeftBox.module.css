@@ -1,0 +1,35 @@
+.leftbox {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 96px;
+  height: 1024px;
+  justify-content: space-between;
+}
+img {
+  width: 40px;
+  height: 40px;
+  margin-top: 35px;
+  margin-left: 22px;
+}
+.leftmidbox {
+  /* border: 1px solid red; */
+  /* height: 425px; */
+  margin-top: 200px;
+}
+.leftmidbox > div {
+  height: 70px;
+  /* margin-bottom: -20px; */
+  border: 0.1px solid white;
+}
+.leftmidbox > div:nth-child(1) {
+  /* margin-top: 300px; */
+  background-image: linear-gradient(#679cf6, #4072ee);
+
+  color: white;
+  padding-top: 1px;
+}
+
+.add {
+  margin-bottom: 23px;
+}
